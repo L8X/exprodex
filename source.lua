@@ -1,6 +1,6 @@
 Services = setmetatable({},{__index=function(s,r) return game:service(r) end})
 
-if syn or hookmetamethod and getrawmetatable then 
+if syn and hookmetamethod and getrawmetatable then 
 spawn(function()
 local OldIndex
 OldIndex = hookmetamethod(game, "__index", function(Self, Index)
@@ -70,7 +70,7 @@ local getobjects = function(a)
     return Objects
 end
 
-if syn or hookmetamethod and getrawmetatable then
+if hookfunction and getrawmetatable then
 spawn(function()
 local function old()
 hookfunction(game.GetObjects, getobjects)
