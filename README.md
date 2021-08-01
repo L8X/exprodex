@@ -1,2 +1,2 @@
-# exprodex
+# ExProDex
 ExProDex is an edit of the popular Roblox exploit script known as Dex Explorer, and was edited by the Leader of ExPro Reborn and ExProHacks Reborn. This is cross-compatible with custom evasion layers for Synapse X, and ones that work for ALL executors (Such as ExProV3). The contents of this repository is subject to copyright, unauthorized distribution and copying is a direct violation of the Digital Millennium Copyright Act (DMCA). (C) Copyright 2021 L8X, All Rights Reserved.
