@@ -1,13 +1,9 @@
-Services = setmetatable({},{__index=function(s,r) return game:service(r) end})
-
 local cloneref = cloneref or function(ref)
     return ref
 end
 
-local ScriptContext = cloneref(Services.ScriptContext)
-local InsertService = cloneref(Services.InsertService)
-local CoreGui = cloneref(Services.CoreGui)
-local ContentProvider = cloneref(Services.ContentProvider)
+local CoreGui = cloneref(game:GetService("CoreGui"))
+local InsertService = cloneref(game:GetService("InsertService"))
 
 local table_insert = table.insert
 local table_foreach = table.foreach
